@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.gitlab.mihajlonesic.sudoku.control.SudokuBoard?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      spacing="2"
+      alignment="CENTER"
+      maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+      minWidth="-Infinity" prefHeight="460.0" prefWidth="420.0">
+
+    <padding>
+        <Insets right="2" left="2"/>
+    </padding>
+
+    <SudokuBoard fx:id="sudokuBoard"/>
+
+    <HBox xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          spacing="4"
+          alignment="CENTER">
+
+        <padding>
+            <Insets top="15" bottom="2"/>
+        </padding>
+
+        <Button fx:id="btnSolve" text="Solve"/>
+        <Button fx:id="btnVisualize" text="Visualize"/>
+        <Button fx:id="btnClear" text="Clear"/>
+
+    </HBox>
+</VBox>

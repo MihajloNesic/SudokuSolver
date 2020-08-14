@@ -1,0 +1,12 @@
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Font?>
+
+<fx:root type="javafx.scene.control.TextField"
+         xmlns:fx="http://javafx.com/fxml"
+         prefHeight="40"
+         prefWidth="40"
+         alignment="CENTER">
+    <font>
+        <Font name="Tahoma" size="15"/>
+    </font>
+</fx:root>

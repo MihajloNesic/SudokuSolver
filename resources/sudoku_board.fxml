@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.gitlab.mihajlonesic.sudoku.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<fx:root type="javafx.scene.layout.VBox"
+         xmlns:fx="http://javafx.com/fxml">
+
+    <VBox spacing="-6"
+          alignment="CENTER">
+
+        <VBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc00"/>
+                <SudokuCell fx:id="sc01"/>
+                <SudokuCell fx:id="sc02"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc03"/>
+                <SudokuCell fx:id="sc04"/>
+                <SudokuCell fx:id="sc05"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc06"/>
+                <SudokuCell fx:id="sc07"/>
+                <SudokuCell fx:id="sc08"/>
+            </HBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc10"/>
+                <SudokuCell fx:id="sc11"/>
+                <SudokuCell fx:id="sc12"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc13"/>
+                <SudokuCell fx:id="sc14"/>
+                <SudokuCell fx:id="sc15"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc16"/>
+                <SudokuCell fx:id="sc17"/>
+                <SudokuCell fx:id="sc18"/>
+            </HBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc20"/>
+                <SudokuCell fx:id="sc21"/>
+                <SudokuCell fx:id="sc22"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc23"/>
+                <SudokuCell fx:id="sc24"/>
+                <SudokuCell fx:id="sc25"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc26"/>
+                <SudokuCell fx:id="sc27"/>
+                <SudokuCell fx:id="sc28"/>
+            </HBox>
+        </VBox>
+
+        <Label text=" "/>
+
+        <VBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc30"/>
+                <SudokuCell fx:id="sc31"/>
+                <SudokuCell fx:id="sc32"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc33"/>
+                <SudokuCell fx:id="sc34"/>
+                <SudokuCell fx:id="sc35"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc36"/>
+                <SudokuCell fx:id="sc37"/>
+                <SudokuCell fx:id="sc38"/>
+            </HBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc40"/>
+                <SudokuCell fx:id="sc41"/>
+                <SudokuCell fx:id="sc42"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc43"/>
+                <SudokuCell fx:id="sc44"/>
+                <SudokuCell fx:id="sc45"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc46"/>
+                <SudokuCell fx:id="sc47"/>
+                <SudokuCell fx:id="sc48"/>
+            </HBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc50"/>
+                <SudokuCell fx:id="sc51"/>
+                <SudokuCell fx:id="sc52"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc53"/>
+                <SudokuCell fx:id="sc54"/>
+                <SudokuCell fx:id="sc55"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc56"/>
+                <SudokuCell fx:id="sc57"/>
+                <SudokuCell fx:id="sc58"/>
+            </HBox>
+        </VBox>
+
+        <Label text=" "/>
+
+        <VBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc60"/>
+                <SudokuCell fx:id="sc61"/>
+                <SudokuCell fx:id="sc62"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc63"/>
+                <SudokuCell fx:id="sc64"/>
+                <SudokuCell fx:id="sc65"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc66"/>
+                <SudokuCell fx:id="sc67"/>
+                <SudokuCell fx:id="sc68"/>
+            </HBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc70"/>
+                <SudokuCell fx:id="sc71"/>
+                <SudokuCell fx:id="sc72"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc73"/>
+                <SudokuCell fx:id="sc74"/>
+                <SudokuCell fx:id="sc75"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc76"/>
+                <SudokuCell fx:id="sc77"/>
+                <SudokuCell fx:id="sc78"/>
+            </HBox>
+            <HBox spacing="1"
+                  alignment="CENTER">
+                <padding>
+                    <Insets top="1" right="1" bottom="1" left="1"/>
+                </padding>
+
+                <SudokuCell fx:id="sc80"/>
+                <SudokuCell fx:id="sc81"/>
+                <SudokuCell fx:id="sc82"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc83"/>
+                <SudokuCell fx:id="sc84"/>
+                <SudokuCell fx:id="sc85"/>
+                <Label text=" "/>
+                <SudokuCell fx:id="sc86"/>
+                <SudokuCell fx:id="sc87"/>
+                <SudokuCell fx:id="sc88"/>
+            </HBox>
+        </VBox>
+
+    </VBox>
+</fx:root>
